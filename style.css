@@ -1,0 +1,163 @@
+.disclaimer {
+    display:none !important;
+}
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {display: none;}
+
+* {
+    box-sizing: border-box;
+}
+
+body, main{
+    background-color: #f8f8f8;
+    color: black;
+    
+}
+
+header {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
+    background-color: white;
+}
+
+header img {
+    height: 40px;
+}
+
+nav {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.container-fluid {
+    margin: auto 8px auto 20px;
+}
+
+.dropdown {
+    border-right: 2px solid grey;
+}
+
+nav .btn-check:focus+.btn, nav .btn:focus {
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    width: 97%;
+    min-width: 110px;
+}
+
+nav .btn:hover {
+    color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+.light {
+    color:grey;
+}
+
+.arrow {
+    margin: auto 12px;
+    transform: scale(1.3);
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+form {
+    padding: 10px 20px;
+}
+
+.form-control:focus, .custom-select:focus {
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(255, 0, 0, 0.25);
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.grid23 {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    gap: 10px;
+}
+
+.custom-select {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.baggage {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.baggage * {
+    align-self: center;
+}
+
+.blue {
+    background-color: #d9efff;
+    padding-left: 20px;
+}
+
+.gridBaggage {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.gridBaggage div {
+    place-self: center;
+    margin: 7px auto;
+}
+
+footer {
+    background-color: white;
+    overflow: hidden;
+    padding-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px;
+
+}
+
+.mt-md-5 {
+    margin-top: 1rem!important;
+}
+
+@media only screen and (max-width: 500px) {
+    .grid2, .grid3, .grid23 {
+        grid-template-columns: 1fr;
+    }
+}
+
+   .logo{color:black}  .mone {background-clip:border-box}
